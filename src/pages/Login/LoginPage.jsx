@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { login } from '../redux/auth';
+import { login } from '../../redux/auth';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css'; 
+import { CONFIG } from '../../Config';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
@@ -13,7 +14,7 @@ const LoginPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch( CONFIG.BACK +'/users')
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

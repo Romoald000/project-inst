@@ -1,4 +1,5 @@
-[
+{
+  "users": [
     {
       "id": 1,
       "username": "1",
@@ -9,5 +10,25 @@
       "username": "user2",
       "password": "password2"
     }
+  ],
+  "userInfo": [
+    {
+      "id": 1,
+      "nickname": "Dima",
+      "subtitle": "Програміст/студент. Люблю програмувати ",
+      "posts": [
+        "Мій перший пост",
+        "Вивчення React"
+      ]
+    },
+    {
+      "id": 2,
+      "nickname": "Roma",
+      "subtitle": "хз",
+      "posts": [
+        "Нові проекти",
+        "Креативні ідеї"
+      ]
+    }
   ]
-  
+}
