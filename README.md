@@ -1,5 +1,3 @@
-1. `useAccess`, not `<Navigate>` on '*'
-2. Implement JSON-Server like structure in `db.json` and add `config.js`
-3. Add ability to extend `App.js` with children.
-4. Create `ROUTES` constant that contains all the possible routes on website
-5. Move `<BrowserRouter>` to `<RouterPages>`
+1. `useAccess` restrict from **/profile**. Create `<DefaultPage/>` and registre appropriate route in `router.js` in bottom of jsx components list.
+2. Add ability to extend `App.js` with children.
+3. Move `<BrowserRouter>` to `<RouterPages>` (from `App.js` to `router.js`);
