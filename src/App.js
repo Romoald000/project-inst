@@ -8,9 +8,7 @@ import RouterPages from './router/router';
 const App = () => {
   return (
     <Provider store={store}>
-      <Router >
         <RouterPages /> 
-      </Router>
     </Provider>
   );
 };

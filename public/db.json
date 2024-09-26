@@ -7,27 +7,49 @@
     },
     {
       "id": 2,
-      "username": "user2",
-      "password": "password2"
+      "username": "3",
+      "password": "4"
     }
   ],
   "userInfo": [
     {
       "id": 1,
-      "nickname": "Dima",
+      "nickname": "Dima FQWFQWf",
       "subtitle": "Програміст/студент. Люблю програмувати ",
       "posts": [
-        "Мій перший пост",
-        "Вивчення React"
+        {
+          "date": "18/09/24",
+          "title": "Мій перший пост",
+          "img": "public/imgs/images.jpg",
+          "comments": ": Люкс "
+          
+        },
+        {
+          "date": "09/05/24",
+          "title": "Нові проекти",
+          "img": "public/imgs/images.jpg",
+          "comments": ": Чотко "
+          
+        }
       ]
     },
     {
       "id": 2,
-      "nickname": "Roma",
-      "subtitle": "хз",
+      "nickname": "Anton FQFQW",
+      "subtitle": "",
       "posts": [
-        "Нові проекти",
-        "Креативні ідеї"
+        {
+          "date": "11/01/23",
+          "title": "Мої думки",
+          "img": "public/imgs/images.jpg",
+          "comments": ":Дуже гарно"
+        },
+        {
+          "date": "10/10/20",
+          "title": "Сім`я",
+          "img": "public/imgs/images.jpg",
+          "comments": ":Прекрасно"
+        }
       ]
     }
   ]
