@@ -28,6 +28,9 @@ const LoginPage = () => {
     const user = users.find(
       (user) => user.username === username && user.password === password
     );
+
+    delete user.password;
+
     if (user) {
       dispatch(login(user));
       navigate(PAGES.HOME);

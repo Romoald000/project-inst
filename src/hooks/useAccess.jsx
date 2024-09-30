@@ -23,5 +23,5 @@ import { PAGES } from '../router/router';
 
     }, [isAuthenticated, pathname, navigate]);
 
-    return () => {}
+    return isAuthenticated;
 }

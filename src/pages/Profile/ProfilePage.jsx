@@ -8,6 +8,7 @@ import Posts from "../../components/post/Posts";
 
 const ProfilePage = () => {
   useAccess();
+  
   const currentUser = useSelector((state) => state.auth.currentUser);
   const { posts } = usePosts(CONFIG.BACK + "/userInfo?id=" + currentUser.id);
 

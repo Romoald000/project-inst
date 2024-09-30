@@ -41,13 +41,13 @@
         {
           "date": "11/01/23",
           "title": "Мої думки",
-          "img": "public/imgs/images.jpg",
+          "img": "/imgs/images.jpg",
           "comments": ":Дуже гарно"
         },
         {
           "date": "10/10/20",
           "title": "Сім`я",
-          "img": "public/imgs/images.jpg",
+          "img": "/imgs/images.jpg",
           "comments": ":Прекрасно"
         }
       ]
